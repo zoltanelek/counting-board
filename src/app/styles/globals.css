@@ -1,0 +1,113 @@
+/* globals.css */
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "top-left top-left shaded-1 shaded-1 shaded-1 top-1 top-1 top-2 top-2 top-3 top-3 top-4 top-4"
+        "shaded-2 shaded-2 shaded-1 shaded-1 shaded-1 central-core central-core central-core central-right central-right central-right second-1 second-1"
+        "middle-1 middle-1 middle-2 middle-2 middle-2 central-core central-core central-core middle-4 middle-4 middle-4 middle-5 middle-5"
+        "fourth-1 fourth-1 central-left central-left central-left central-core central-core central-core shaded-3 shaded-3 shaded-3 shaded-4 shaded-4"
+        "bottom-1 bottom-1 bottom-2 bottom-2 bottom-3 bottom-3 bottom-4 bottom-4 shaded-3 shaded-3 shaded-3 bottom-right bottom-right";
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 90%;
+    height: 80vh;
+}
+
+.compartment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    position: relative;
+}
+
+.dark-corner {
+    background-color: #555;
+    border: 1px solid black;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.white-large {
+    background-color: #fff;
+}
+
+.shaded {
+    background-color: #bbb; 
+}
+
+.placeholder-shaded {
+    background-color: #bbb;
+}
+
+.placeholder-white {
+    background-color: #fff;
+}
+
+.pebble-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.pebble {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.shaded-1, .top-1, .top-2, .bottom-2, .bottom-3 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.shaded-2, .shaded-3 {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.second-1, .fourth-1 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.middle-1 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.middle-2 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.top-4 , .middle-5, .bottom-1  {
+    border: 1px solid black;
+}
+
+.middle-4 {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.shaded-4 {
+    border-right: 1px solid black;  
+}
+
+.bottom-4, .top-3 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
