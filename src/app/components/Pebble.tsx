@@ -1,6 +1,5 @@
 "use client"
 
-// components/Pebble.tsx
 import React from 'react';
 
 interface PebbleProps {

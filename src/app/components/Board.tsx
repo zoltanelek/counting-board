@@ -1,6 +1,5 @@
 "use client"
 
-// components/Board.tsx
 import React, { useState } from 'react';
 import Pebble from './Pebble';
 
