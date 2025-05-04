@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
                 on their position, following a decimal system. Different colors were used to distinguish various
                 items being counted. The yupana was essential for managing resources and administrative tasks,
                 complementing the quipu system for permanent records. It enabled efficient calculations and
-                logistical management, showcasing the Incas' ingenuity in administrative systems.
+                logistical management, showcasing the Inca ingenuity in administrative systems.
             </p>
             <Image
                   src="/Yupana.png"
