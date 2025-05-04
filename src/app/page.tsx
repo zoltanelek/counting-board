@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
                 logistical management, showcasing the Inca ingenuity in administrative systems.
             </p>
             <Image
-              src="/Yupana.png"
+              src="Yupana.png"
               width={500}
               height={500}
               alt="Yupana"
